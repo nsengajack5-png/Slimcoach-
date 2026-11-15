@@ -1,0 +1,16 @@
+{
+  "name": "slimcoach",
+  "version": "0.1.0",
+  "description": "SlimCoach — application web de gestion saine du poids (première version fonctionnelle)",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "create-admin": "node --disable-warning=ExperimentalWarning scripts/create-admin.js"
+  }
+}
